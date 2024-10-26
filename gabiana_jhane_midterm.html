@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.ctu.edu.ph/wp-content/uploads/2019/11/cropped-62220234_332391227435918_4519078887073775616_n.png" type="image/png">
+    <title>Personal Website | Midterm</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> <!-- Import Pacifico font -->
+</head>
+<body>
+    <!-- Introduction Section -->
+    <section id="introduction" class="section intro-section">
+        <h1>Hello, nice to meet you~</h1> <!-- Main heading -->
+        <div class="intro-content">
+            <img src="selfpic.png" alt="Jhane Carlyn C. Gabiana" class="profile-img"> <!-- Profile image -->
+            <div class="intro-text">
+                <p> My name is <i>Jhane Carlyn C. Gabiana</i>, and I am from Purok 2 San Jose Cebu City, Philippines.
+                    I am currently a second-year student at Cebu Technological University taking up a course in Bachelor of Science in Information Technology.
+                </p>
+                <div class="button-container">
+                    <button onclick="document.getElementById('about-me').scrollIntoView();">About Me</button> <!-- Button to scroll to About Me -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me" class="section">
+        <h2>ABOUT ME</h2> <!-- Subheading -->
+        <p style="text-align: justify; line-height: 1.3;"> <!-- Paragraph with justified text -->
+            I come from a family that is not that poor but also not rich. I have two sisters and I am the middle child. Being aware of my family’s financial situation, I decided to go with BSIT in CTU Main Campus instead of pursuing Medical Technology in UC-Banilad. It is a practical choice and I am trying my best to find passion in where I’m at right now but it still is a rough road ahead especially when I’m still very much struggling with coding on my own and I still find it difficult to understand my programming subjects. Even so, I still choose to continue because I want to graduate and look for high-paying jobs so I can help my parents live a comfortable life in the future and I want to be able to go shopping as many times as I want with my sisters. I am a person who values fairness and kindness. I believe in the works of karma as they say that what comes around, goes around. Also, a little bit more information about me is that I really love singing and I also find it fun to watch and sing along to lyric videos of JPOP and KPOP music.
+        </p>
+        <img src="aboutme.png" alt="Family and Childhood Photo" class="about-img"> <!-- Image about family -->
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2>EDUCATION</h2> <!-- Subheading -->
+        <table class="education-table"> <!-- Education table -->
+            <thead>
+                <tr>
+                    <th>LEVEL</th> <!-- Table header for level -->
+                    <th>SCHOOL</th> <!-- Table header for school -->
+                    <th>YEAR</th> <!-- Table header for year -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ELEMENTARY</td>
+                    <td>TALAMBAN ELEMENTARY SCHOOL</td>
+                    <td>2017 (GRADUATED)</td>
+                </tr>
+                <tr>
+                    <td>JUNIOR HIGH</td>
+                    <td>TALAMBAN NATIONAL HIGH SCHOOL</td>
+                    <td>2020 (GRADUATED)</td>
+                </tr>
+                <tr>
+                    <td>SENIOR HIGH</td>
+                    <td>TALAMBAN NATIONAL HIGH SCHOOL</td>
+                    <td>2022 (GRADUATED)</td>
+                </tr>
+                <tr>
+                    <td>COLLEGE</td>
+                    <td>CEBU TECHNOLOGICAL UNIVERSITY</td>
+                    <td>2024 (CURRENT)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <i>I am currently a second-year student studying at <strong>Cebu Technological University</strong> 
+            pursuing a degree in <strong>Bachelor of Science in Information Technology</strong>.</i>
+        </p>
+        <img src="close.png" alt="School Years" class="education-img"> <!-- Image related to education -->
+    </section>
+
+    <!-- Flex Container for Skills and Contact Sections -->
+    <div class="flex-container">
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>FAIRLY AVERAGE SKILLS</h2> <!-- Subheading -->
+            <ul> <!-- List of skills -->
+                <li>C</li>
+                <li>HTML & CSS</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+            <div class="skills-logos"> <!-- Logos for skills -->
+                <img src="C.png" alt="C Logo" class="logo">
+                <img src="html.png" alt="HTML Logo" class="logo">
+                <img src="java.png" alt="Java Logo" class="logo">
+                <img src="python.png" alt="Python Logo" class="logo">
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>CONTACT</h2> <!-- Subheading -->
+            <ul> <!-- List of contact info -->
+                <li>Email: <a href="mailto:jhanecarlyngabiana@gmail.com">jhanecarlyngabiana@gmail.com</a></li>
+                <li>Facebook: <a href="https://www.facebook.com/jhanecarlyngabiana">Jhane Carlyn Gabiana</a></li>
+                <li>Cellphone number: (+63) 9325529036</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
